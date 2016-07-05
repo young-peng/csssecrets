@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bevel-corner-gradient</title>
+	<style type="text/css">
+		.div1{
+			background: #58a;
+			background: linear-gradient(-45deg,transparent 15px,#58a 0);
+			width: 12em;
+			height: 10em;
+		}
+		.div2{
+			background: #58a;
+			background: linear-gradient(-45deg,transparent 15px,#58a 0) right,linear-gradient(45deg,transparent 15px,#58a 0) left;
+			background-size: 50% 100%;
+			background-repeat: no-repeat;
+			width: 12em;
+			height: 10em;
+		}
+		.div3{
+			background: #58a;
+			background: linear-gradient(135deg,transparent 15px,#58a 0) top left,linear-gradient(-135deg,transparent 15px,#58a 0) top right,linear-gradient(-45deg,transparent 15px,#58a 0) bottom right,linear-gradient(45deg,transparent 15px,#58a 0) bottom left;	
+			background-size: 50% 50%;
+			background-repeat: no-repeat;
+			width: 12em;
+			height: 10em;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">
+		
+	</div>
+	<div class="div2">
+		
+	</div>
+	<div class="div3">
+		
+	</div>
+</body>
+</html>
